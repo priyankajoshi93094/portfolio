@@ -382,6 +382,23 @@ header {
     color: #081b29;
     box-shadow: 0 4px 10px rgba(0, 171, 240, 0.3);
   }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    font-size: 2rem;
+    color: #ededed;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: honeydew;
+  }
   
 footer {
   text-align: center;
